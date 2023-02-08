@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <link rel= "icon" href=
+    https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png>
+
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/phosphor-icons"></script>
@@ -27,38 +30,22 @@
                     <div class="status">Online</div>
                 </div>
             </div>
-            <div id="close-chat"> <i class="ph-x"></i>
-             </div>
+            <div id="close-chat">
+          <i class="ph-x"></i>
         </div>
-        <div id="messages">
-            <div id="last-seem">Hoje 11:30</div>
-            <div class="messages">
-                <div class="message">
-                    <div class="top">Cristian - 11:30</div>
-                    <div class="body">Tive uma ideia incrível para o projeto!</div>
-                </div>
-                <div class="message-you">
-                    <div class="top">Você - 11:32</div>
-                    <div class="body">Sério? Me conta mais.</div>
-                </div>
-            </div>
-        </div>
-        <div id="bottom">
-            <form >
-                <div class="input-wrapper">
-                    <input type="text" placeholder="Digite sua mensagem">
-                    <button>
-                        <i class="ph-paper-plane-right"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
+      </div>
+      <div id="messages">
+        <div id="last-seen">Hoje 11:20</div>
 
+        <div class="messages"></div>
+      </div>
+      <form id="bottom">
+        <input id="newMessage" type="text" placeholder="Digite sua mensagem" />
+        <button id="send">
+          <i class="ph-paper-plane-right"></i>
+        </button>
+      </form>
     </div>
 
-
-
-
-</body>
-
+  </body>
 </html>
