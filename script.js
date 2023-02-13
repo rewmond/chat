@@ -45,33 +45,30 @@ const scdMsg = () => {
     (first = () => {
       switch (flag) {
         case 0:
-          randomMessage = "Tive uma ideia incrível para um projeto! 😍"
+          randomMessage = "Tenho umas ideias para projeto"
           break
         case 1:
           randomMessage =
-            "E se a gente fizesse um chat moderno e responsivo em apenas uma semana?"
+            'Caso você queira queira conhecer mais clique aqui em: <a style="color:#e1e1e6;" href="https://taylorvargas.netlify.app/">Portifólio</a>,pode ser?'
           break
         case 2:
           randomMessage = "Fechado! Conto com você! 🤩"
           break
         case 3:
-          randomMessage = "#boraCodar! 💜🚀"
-          break
-        case 4:
           randomMessage =
             "Já ia me esquecendo.. Me siga no Linkedin clicando no perfil"
           break
-        case 5:
+        case 4:
           randomMessage = "Taylor Vargas foi o desenvolvedor do código."
           break
-        case 6:
+        case 5:
           randomMessage = `você pode acessar o repositório clicando aqui: <a style="color:#e1e1e6; text-decoration:none;" href="https://github.com/rewmond?tab=repositories">Github</a>`
           break
-        case 7:
+        case 6:
           randomMessage = "Agora eu estou cansado e estou indo dormir..."
           break
-        case 8:
-          randomMessage = "*Mensagem Automática* Abner está dormindo."
+        case 7:
+          randomMessage = "*Mensagem Automática* Taylor está dormindo."
           break
         default:
           randomMessage = "Não posso te responder agora"
